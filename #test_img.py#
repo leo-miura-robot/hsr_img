@@ -1,0 +1,10 @@
+#!/usr/bin/env python
+## coding: UTF-8
+
+import rospy
+import cv2
+import numpy as np
+from cv_bridge import CvBridge, CvBridgeError
+
+def callback():
+    roslaunch turtlebot3_gazebo turtlebot3_world.launch
